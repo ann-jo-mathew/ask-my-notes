@@ -1,0 +1,30 @@
+# Environment variables
+.env
+**/.env
+.env.*
+!.env.example
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Vector database / Local storage
+backend/notes_db/
+**/notes_db/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
